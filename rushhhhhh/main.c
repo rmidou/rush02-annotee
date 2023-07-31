@@ -40,7 +40,7 @@ void	argc_2(char **argv)
 
 	fin = 0;
 	tab[0] = '0';
-	nb = malloc(sizeof(char) * ft_strlen(ft_atoa(argv[1])));//creation du tableau qui va contenir chaque ligne dans des ous tableau
+	nb = malloc(sizeof(char) * ft_strlen(ft_atoa(argv[1])));//creation du tableau qui va contenir chaque ligne dans des sous tableau
 	nb = ft_atoa(argv[1]);//remplissage du tableau cree
 	if (ft_strlen(nb) > 18)//si chiffre trop grand = erreur
 	{
